@@ -1,4 +1,4 @@
-// -*- mode: jsonc -*-
+//-*- mode: jsonc -*-
 {
     "layer": "top", 
     "position": "top", 
@@ -7,9 +7,9 @@
 
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/workspaces",
+        "ext/workspaces",
         "custom/sep",
-        "hyprland/window",
+        "ext/window",
         "custom/sep"
     ],
     "modules-center": [
@@ -31,7 +31,7 @@
     ],
 
     // Modules configuration
-    "hyprland/workspaces": {
+    "ext/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "warp-on-scroll": false,
@@ -40,7 +40,7 @@
             "*" : 9
         }
     },
-    "hyprland/window" : {
+    "ext/window" : {
         "max-length": 40,
         "seperate-outputs": false
     },
